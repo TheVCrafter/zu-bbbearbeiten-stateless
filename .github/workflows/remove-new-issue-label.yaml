@@ -11,4 +11,4 @@ jobs:
       - name: Remove new issue label
         uses: actions-ecosystem/action-remove-labels@v1
         with:
-          labels: status: new issue
+          labels: "status: new issue"
