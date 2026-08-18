@@ -1,0 +1,14 @@
+name: Add in-progress label
+
+on:
+  issues:
+    types: [assigned]
+
+jobs:
+  add-label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add in-progress label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: status: in progress
