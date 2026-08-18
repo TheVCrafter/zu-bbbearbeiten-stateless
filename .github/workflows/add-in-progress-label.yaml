@@ -11,4 +11,4 @@ jobs:
       - name: Add in-progress label
         uses: actions-ecosystem/action-add-labels@v1
         with:
-          labels: status: in progress
+          labels: "status: in progress"
